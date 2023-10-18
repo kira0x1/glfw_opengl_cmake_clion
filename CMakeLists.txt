@@ -16,5 +16,6 @@ set(opengl_linking
         main.cpp
 )
 
+add_subdirectory(glad)
 add_executable(opengl_linking main.cpp)
-target_link_libraries(opengl_linking ${OPENGL_LIBRARIES} glfw)
+target_link_libraries(opengl_linking ${OPENGL_LIBRARIES} glfw glad)

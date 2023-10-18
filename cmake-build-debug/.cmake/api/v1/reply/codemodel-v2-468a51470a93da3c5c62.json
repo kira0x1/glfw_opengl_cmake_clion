@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -19,7 +20,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -49,8 +50,23 @@
 					"source" : "glfw/src",
 					"targetIndexes" : 
 					[
-						0,
-						2
+						1,
+						3
+					]
+				},
+				{
+					"build" : "glad",
+					"jsonFile" : "directory-glad-Debug-6aad498c2c8cd39e25f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "glad",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
@@ -60,7 +76,8 @@
 				{
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"directoryIndexes" : 
 					[
@@ -69,7 +86,7 @@
 					"name" : "opengl_linking",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -82,13 +99,32 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0,
-						2
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-glad-Debug-6dc5ffffa36144719170.json",
+					"name" : "glad",
+					"projectIndex" : 2
+				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@12507ebf64a5258d241e",
@@ -99,7 +135,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "opengl_linking::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-opengl_linking-Debug-9ffc154391c076e95662.json",
+					"jsonFile" : "target-opengl_linking-Debug-c0a3e326701f5d91f5d3.json",
 					"name" : "opengl_linking",
 					"projectIndex" : 0
 				},

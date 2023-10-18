@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+				"line" : 21,
 				"parent" : 0
 			}
 		]
@@ -53,6 +53,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/kira/Documents/projects/c/opengl_linking/glfw/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/kira/Documents/projects/c/opengl_linking/glad/include"
 				}
 			],
 			"language" : "CXX",
@@ -75,6 +79,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "glfw::@12507ebf64a5258d241e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glad::@74ca6b3581f0d7366b1f"
 		}
 	],
 	"id" : "opengl_linking::@6890427a1f51a3e7e1df",
@@ -103,6 +111,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "glfw\\src\\libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glad\\libglad.a",
 				"role" : "libraries"
 			},
 			{
